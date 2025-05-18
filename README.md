@@ -19,7 +19,7 @@ Results Summary Component
 ![](/assets/images/screenshot.png)
 
 ### Links
-- Solution URL: [Solution URL](https://github.com/Ellamonacillo/results-summary-component.github.io)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-results-summary-component-54OErZ6z7C)
 - Live Site URL: [Github Pages](https://ellamonacillo.github.io/results-summary-component.github.io/)
 
 ### Built with
