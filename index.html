@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="src/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body class="bg-PaleBlue font-hanken">
+
+  <div class="h-screen w-full flex justify-center items-center">
+    <div class="grid md:grid-cols-2 w-full h-screen md:h-auto md:w-3/5 bg-white rounded-4xl">
+
+      <div class="flex flex-col text-center justify-evenly items-center py-10 gap-5 bg-linear-to-t from-LightRoyalBlue to-LightSlateBlue rounded-b-4xl md:rounded-4xl text-white">
+        <h3 class="opacity-75 font-semibold text-xl xl:text-2xl">Your Result</h3>
+        <div class="flex flex-col justify-center gap-2 py-5 size-35 xl:size-50 rounded-full bg-linear-to-b from-VioletBlue">
+          <h1 class="font-extrabold text-4xl xl:text-6xl">76</h1>
+          <h5 class="opacity-50 text-xs xl:text-xl">of 100</h5>
+        </div>
+        <div class="grid gap-2 px-10 xl:px-18">
+          <h1 class="font-extrabold text-2xl xl:text-4xl">Great</h1>
+          <h3 class="text-md opacity-70 xl:text-xl">You scored higher than 65% of the people who have taken these tests.</h3>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-evenly px-12 py-5 md:py-10 md:px-4 lg:px-10 xl:rounded-4xl gap-5">
+        <h2 class="font-bold text-DarkGrayBlue text-xl xl:text-2xl">Summary</h2>
+        <div class="flex flex-col gap-3" id="summary"></div>
+        <button class="rounded-full bg-DarkGrayBlue font-semibold text-white py-3 xl:py-5 hover:cursor-pointer hover:bg-linear-to-t hover:from-LightRoyalBlue hover:to-LightSlateBlue">Continue</button>
+    </div>
+
+  </div>
+  
+  <div class="hidden md:block absolute bottom-0 place-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://mariellamonacillo.netlify.app">MGM</a>.
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

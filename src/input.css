@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    /* Primary */
+    --color-LightRed: hsl(0, 100%, 67%);
+    --color-LightRedBackground: hsl(0, 100%, 95%);
+    --color-OrangeYellow: hsl(39, 100%, 56%);
+    --color-OrangeYellowBackground: hsl(39, 100%, 95%);
+    --color-GreenTeal: hsl(166, 100%, 37%);
+    --color-GreenTealBackground: hsl(166, 100%, 95%);
+    --color-CobaltBlue: hsl(234, 85%, 45%);
+    --color-CobaltBlueBackground: hsl(234, 85%, 95%);
+
+    /* Gradients */
+
+        /* Background */
+        --color-LightSlateBlue: hsl(252, 100%, 67%);
+        --color-LightRoyalBlue: hsl(241, 81%, 54%);
+        /* Circle */
+        --color-VioletBlue: hsla(256, 72%, 46%, 1);
+        --color-PersianBlue: hsla(241, 72%, 46%, 0);
+    
+    /* Neutral */
+    --color-White: hsl(0, 0%, 100%);
+    --color-PaleBlue: hsl(221, 100%, 96%);
+    --color-LightLavender: hsl(241, 100%, 89%);
+    --color-DarkGrayBlue: hsl(224, 30%, 27%);
+
+    /* Font */
+    --font-hanken: "Hanken Grotesk";
+}
