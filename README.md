@@ -16,11 +16,11 @@ Results Summary Component
 
 ### Screenshot
 
-![](/aseets/images/screenshot.png)
+![](/assets/images/screenshot.png)
 
 ### Links
-- Solution URL: [Solution URL]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Solution URL](https://github.com/Ellamonacillo/results-summary-component.github.io)
+- Live Site URL: [Github Pages](https://ellamonacillo.github.io/results-summary-component.github.io/)
 
 ### Built with
 
